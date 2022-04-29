@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+uartReceive                                                                       0x019A       6
+uartSend                                                                          0x01A0       6
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+uartIndex                                                                         R4,R5        2
+nhietdo                                                                           R7           1
+chuc                                                                              R6           1
+dvi                                                                               R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+khoidong                                                                          0x0009D      7
+hienthi                                                                           0x000A4      7
+hienchuoi                                                                         0x000AB     28
+uart_char_send                                                                    0x000C7      6
+uart_string_send                                                                  0x000CD     25
+uart_char_receive                                                                 0x000E6      4
+SPI_Write                                                                         0x000EA      6
+SPI_tranceiver                                                                    0x000F0      8
+UARTSetup                                                                         0x000F8     12
+usart_rx_isr                                                                      0x00104    147
+main                                                                              0x00197    109
+strcmp                                                                            0x00204     20
+strlen                                                                            0x00218     12
